@@ -139,8 +139,110 @@ export default function Home() {
               </button>
             ))}
           </div>
+
+
+
+
+
+
+
         </div>
+             {/* Significance Section */}
+      <div className="mt-10 bg-gradient-to-r from-fuchsia-200 via-white to-purple-200 p-8 rounded-2xl shadow-lg max-w-3xl text-right">
+        <h3 className="text-2xl font-bold text-fuchsia-700 mb-4">
+          درود شریف کی فضیلت
+        </h3>
+        <p className="text-gray-700 text-lg leading-relaxed mb-4">
+          حضرت محمد ﷺ نے فرمایا:  
+          <span className="font-semibold text-fuchsia-800">
+            "جو مجھ پر ایک مرتبہ درود بھیجتا ہے، اللہ تعالیٰ اس پر دس رحمتیں نازل فرماتا ہے۔"
+          </span>  
+          (صحیح مسلم)
+        </p>
+
+        <blockquote className="italic text-purple-800 border-r-4 border-fuchsia-600 pr-4 mb-4">
+          "درود شریف وہ خوشبو ہے جو مومن کے دل کو معطر کرتی ہے۔" — امام شافعیؒ
+        </blockquote>
+
+        <h4 className="text-xl font-bold text-fuchsia-700 mb-2">درود شریف کے فوائد:</h4>
+        <ul className="list-disc pr-5 text-gray-700 mb-4">
+          <li>دل کی سکون اور اطمینان کا ذریعہ ہے۔</li>
+          <li>اللہ کی رحمتوں کا سبب بنتا ہے۔</li>
+          <li>دنیا اور آخرت میں کامیابی کی ضمانت ہے۔</li>
+          <li>نبی ﷺ کی شفاعت کا ذریعہ ہے۔</li>
+          <li>انسان کے دل کو گناہوں سے پاک کرتا ہے۔</li>
+        </ul>
+
+        <h4 className="text-xl font-bold text-fuchsia-700 mb-2">درود شریف پڑھنے کا طریقہ:</h4>
+        <ol className="list-decimal pr-5 text-gray-700 mb-4">
+          <li>نیت کریں کہ آپ درود شریف اللہ کی رضا کے لیے پڑھ رہے ہیں۔</li>
+          <li>اللہ کی حمد و ثنا کریں اور پھر درود شریف پڑھیں۔</li>
+          <li>آخر میں اللہ سے دعا کریں اور امت مسلمہ کے لیے خیر مانگیں۔</li>
+        </ol>
+
+        <h4 className="text-xl font-bold text-fuchsia-700 mb-2">مشہور اقوال:</h4>
+        <blockquote className="italic text-purple-800 border-r-4 border-fuchsia-600 pr-4">
+          "درود شریف دل کو روشن کرتا ہے اور انسان کو اللہ کے قریب کرتا ہے۔"  
+          — حضرت امام احمد بن حنبلؒ
+        </blockquote>
+      </div>
+
+      {/* Poetry Section */}
+      <div className="mt-8 text-purple-800 text-lg font-semibold">
+        <p>مُجھے کیا فکر ہو اختر میرے یاور ہیں وہ یاور </p>
+        <p>بلاؤں کو جو میری خود گرفتارِ بلا کر دیں</p>
+      </div>
+
+      {/* Contact Section */}
+      <div className="mt-10 text-gray-700 text-base font-medium">
+        <p>
+          اگر ایپلیکیشن میں کوئی مسئلہ ہو تو براہ کرم صرف واٹس ایپ پر رابطہ کریں:{" "}
+          <span className="text-fuchsia-700 font-bold"> 3233381938 92+</span>
+        </p>
+        <p className="mt-1 text-fuchsia-800 font-semibold">
+          عبداللہ الحسینی قادری
+        </p>
+      </div>
       </div>
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
