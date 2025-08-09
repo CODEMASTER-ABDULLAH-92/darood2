@@ -3,20 +3,23 @@
 
 
 
-/* * {
+* {
   font-family: "Noto Nastaliq Urdu", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
-   */
+  
 
 
-   * {
-  font-family: "Noto Nastaliq Urdu", 
-               -apple-system, /* For Apple devices */
-               "Segoe UI", /* Windows */
-               "Urdu Typesetting", /* Windows Urdu */
-               "Nafees Web Naskh", /* Common Urdu font */
-               serif;
+@font-face {
+  font-family: 'Noto Nastaliq Urdu';
+  src: url('/fonts/NotoNastaliqUrdu-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", "Urdu Typesetting", "Nafees Web Naskh", serif;
 }
