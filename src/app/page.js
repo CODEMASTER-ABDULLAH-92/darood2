@@ -139,13 +139,6 @@ export default function Home() {
               </button>
             ))}
           </div>
-
-
-
-
-
-
-
         </div>
              {/* Significance Section */}
       <div className="mt-10 bg-gradient-to-r from-fuchsia-200 via-white to-purple-200 p-8 rounded-2xl shadow-lg max-w-3xl text-right">
@@ -155,13 +148,13 @@ export default function Home() {
         <p className="text-gray-700 text-lg leading-relaxed mb-4">
           حضرت محمد ﷺ نے فرمایا:  
           <span className="font-semibold text-fuchsia-800">
-            "جو مجھ پر ایک مرتبہ درود بھیجتا ہے، اللہ تعالیٰ اس پر دس رحمتیں نازل فرماتا ہے۔"
+            &quot;جو مجھ پر ایک مرتبہ درود بھیجتا ہے، اللہ تعالیٰ اس پر دس رحمتیں نازل فرماتا ہے۔&quot;
           </span>  
           (صحیح مسلم)
         </p>
 
         <blockquote className="italic text-purple-800 border-r-4 border-fuchsia-600 pr-4 mb-4">
-          "درود شریف وہ خوشبو ہے جو مومن کے دل کو معطر کرتی ہے۔" — امام شافعیؒ
+          &quot;درود شریف وہ خوشبو ہے جو مومن کے دل کو معطر کرتی ہے۔&quot; — امام شافعیؒ
         </blockquote>
 
         <h4 className="text-xl font-bold text-fuchsia-700 mb-2">درود شریف کے فوائد:</h4>
@@ -182,7 +175,7 @@ export default function Home() {
 
         <h4 className="text-xl font-bold text-fuchsia-700 mb-2">مشہور اقوال:</h4>
         <blockquote className="italic text-purple-800 border-r-4 border-fuchsia-600 pr-4">
-          "درود شریف دل کو روشن کرتا ہے اور انسان کو اللہ کے قریب کرتا ہے۔"  
+          &quot;درود شریف دل کو روشن کرتا ہے اور انسان کو اللہ کے قریب کرتا ہے۔&quot;  
           — حضرت امام احمد بن حنبلؒ
         </blockquote>
       </div>
@@ -207,42 +200,3 @@ export default function Home() {
     </div>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
